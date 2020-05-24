@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+ipython = "==7.13.0"
+djangorestframework = "==3.11.0"
+models = "*"
+
+[requires]
+python_version = "3.8"
