@@ -38,8 +38,7 @@ class Youth(YouthBasicDetail):
     FOLLOW_UP_STATUS_CHOICES = (
         ('NOT STARTED', 'Not Started'),
         ('STARTED', 'Started'),
-        ('CONTACTED', 'Contacted'),
-        ('NA', 'Not Applicable')
+        ('CONTACTED', 'Contacted')
     )
 
 
@@ -92,7 +91,7 @@ class VIPContact(models.Model):
         ordering = ['name']
 
     FOLLOW_UP_STATUS_CHOICES = (
-        ('NOT STARTED', 'Not Started'),
+        ('NOT_STARTED', 'Not Started'),
         ('STARTED', 'Started'),
         ('CONTACTED', 'Contacted'),
     )
